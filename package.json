@@ -11,9 +11,14 @@
     "react-router-dom": "^6.26.0",
     "react-scripts": "5.0.1",
     "swiper": "^11.2.4",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "homepage": "https://<Githubアカウント名>.github.io/<リポジトリ名>/",
+  "name": "<プロジェクト名>",
+  "version": "<バージョン>",
+  "private": true
   },
   "scripts": {
+    "deploy": "rm -rf docs && npm run build && mv build docs",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,7 +46,3 @@
     "gh-pages": "^6.3.0"
   }
 }
-
-"scripts": {
-    "deploy": "gh-pages -d build" // このscriptを追加
-  },
