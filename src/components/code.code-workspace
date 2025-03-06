@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../code"
+		},
+		{
+			"path": "../../../../../バイト/内陸線web"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "内陸線web"
+	}
+}
