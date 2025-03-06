@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/yuya-murai222/portfolio-react/static/css/main.d10f0fbf.css",
-    "main.js": "/yuya-murai222/portfolio-react/static/js/main.4af2eb89.js",
-    "index.html": "/yuya-murai222/portfolio-react/index.html",
-    "main.d10f0fbf.css.map": "/yuya-murai222/portfolio-react/static/css/main.d10f0fbf.css.map",
-    "main.4af2eb89.js.map": "/yuya-murai222/portfolio-react/static/js/main.4af2eb89.js.map"
+    "main.css": "./static/css/main.d10f0fbf.css",
+    "main.js": "./static/js/main.4af2eb89.js",
+    "index.html": "./index.html",
+    "main.d10f0fbf.css.map": "./static/css/main.d10f0fbf.css.map",
+    "main.4af2eb89.js.map": "./static/js/main.4af2eb89.js.map"
   },
   "entrypoints": [
     "static/css/main.d10f0fbf.css",
