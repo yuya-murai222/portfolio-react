@@ -446,6 +446,7 @@ top-content
     }
     >figure{
         width: 50%;
+        margin: 0;
         @media screen and (max-width:960px) {
             width: 90%;
         }
@@ -621,6 +622,7 @@ top-content
                         display:block; 
                         position:relative;
                         text-decoration:none;
+                        margin: 0;
                         &::before{
                             content:"";
                             display:block;
