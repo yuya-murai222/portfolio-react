@@ -445,6 +445,7 @@ top-content
 }
 #top-sec1 > figure {
   width: 50%;
+  margin: 0;
 }
 @media screen and (max-width: 960px) {
   #top-sec1 > figure {
@@ -665,6 +666,7 @@ top-content
   display: block;
   position: relative;
   text-decoration: none;
+  margin: 0;
 }
 #top-sec3 .works .works-area .works-box a figure::before {
   content: "";
@@ -1047,84 +1049,5 @@ animation
   }
   .works-box.chain-animated:nth-of-type(2n) {
     transition-delay: 0.4s;
-  }
-}
-
-/* =======================================================
-loading
-======================================================= */
-.load {
-  padding: 10px;
-  border-radius: 4px;
-  height: 125px;
-  margin-bottom: 10px;
-  position: fixed;
-  z-index: 10000;
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-color: #FDFDFD;
-}
-
-.load.loaded {
-  opacity: 0;
-  pointer-events: none;
-  transition: opacity 0.5s;
-}
-
-.sp {
-  width: 32px;
-  height: 32px;
-  clear: both;
-  margin: 20px auto;
-}
-
-.sp-wave {
-  border-radius: 50%;
-  position: relative;
-  opacity: 1;
-}
-
-.sp-wave:before, .sp-wave:after {
-  content: "";
-  border: 1px #000 solid;
-  border-radius: 50%;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  left: 0px;
-}
-
-.sp-wave:before {
-  transform: scale(1, 1);
-  opacity: 1;
-  animation: spWaveBe 0.6s infinite linear;
-}
-
-.sp-wave:after {
-  transform: scale(0, 0);
-  opacity: 0;
-  animation: spWaveAf 0.6s infinite linear;
-}
-@keyframes spWaveAf {
-  from {
-    transform: scale(0.5, 0.5);
-    opacity: 0;
-  }
-  to {
-    transform: scale(1, 1);
-    opacity: 1;
-  }
-}
-@keyframes spWaveBe {
-  from {
-    -webkit-transform: scale(1, 1);
-    opacity: 1;
-  }
-  to {
-    -webkit-transform: scale(1.5, 1.5);
-    opacity: 0;
   }
 }/*# sourceMappingURL=style.css.map */

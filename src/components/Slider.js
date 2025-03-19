@@ -15,9 +15,9 @@ const Slider = () => {
         fadeEffect={{crossFade:true,delay: 4000}}
         modules={[Autoplay,EffectFade]}
         >
-            <SwiperSlide><img src="/img/main1.jpg" alt="" class="sp-nn pc-bl" /><img src="/img/sp-main1.jpg" alt="" class="sp-bl pc-nn" /></SwiperSlide>
-            <SwiperSlide><img src="/img/main2.jpg" alt="" class="sp-nn pc-bl" /><img src="/img/sp-main2.jpg" alt="" class="sp-bl pc-nn" /></SwiperSlide>
-            <SwiperSlide><img src="/img/main3.jpg" alt="" class="sp-nn pc-bl" /><img src="/img/sp-main3.jpg" alt="" class="sp-bl pc-nn" /></SwiperSlide>
+            <SwiperSlide><img src={process.env.PUBLIC_URL + "/img/main1.jpg"} alt="" class="sp-nn pc-bl" /><img src={process.env.PUBLIC_URL + "/img/sp-main1.jpg"} alt="" class="sp-bl pc-nn" /></SwiperSlide>
+            <SwiperSlide><img src={process.env.PUBLIC_URL + "/img/main2.jpg"} alt="" class="sp-nn pc-bl" /><img src={process.env.PUBLIC_URL + "/img/sp-main2.jpg"} alt="" class="sp-bl pc-nn" /></SwiperSlide>
+            <SwiperSlide><img src={process.env.PUBLIC_URL + "/img/main3.jpg"} alt="" class="sp-nn pc-bl" /><img src={process.env.PUBLIC_URL + "/img/sp-main3.jpg"} alt="" class="sp-bl pc-nn" /></SwiperSlide>
         </Swiper>
     );
 };

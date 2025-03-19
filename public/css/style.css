@@ -445,6 +445,7 @@ top-content
 }
 #top-sec1 > figure {
   width: 50%;
+  margin: 0;
 }
 @media screen and (max-width: 960px) {
   #top-sec1 > figure {
@@ -665,6 +666,7 @@ top-content
   display: block;
   position: relative;
   text-decoration: none;
+  margin: 0;
 }
 #top-sec3 .works .works-area .works-box a figure::before {
   content: "";

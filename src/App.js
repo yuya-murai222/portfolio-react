@@ -1,4 +1,5 @@
 import './App.css';
+import './reset.css';
 import Loader from './components/Loader';
 import Header from './components/Header';
 import TopPage from './components/TopPage';

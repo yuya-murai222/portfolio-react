@@ -1,0 +1,3 @@
+[submodule "portfolio-react"]
+    path = portfolio-react
+    url = https://github.com/yuya-murai222/portfolio-react.git
