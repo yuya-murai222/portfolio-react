@@ -34,7 +34,7 @@ const Footer = () => {
     
   return (
     <footer>
-        <div className="pagetop"><a href="#root"><img src="./img/pagetop.svg" alt="pagetop" /></a></div>
+        <div className="pagetop"><a href="#root"><img src={process.env.PUBLIC_URL + "/img/pagetop.svg"} alt="pagetop" /></a></div>
         <address>&copy; 2024 Yuya Murai</address>
     </footer>
 

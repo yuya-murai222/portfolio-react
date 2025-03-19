@@ -86,7 +86,7 @@ window.addEventListener("scroll", function () {
                 </div>
             </div>
             <div id="top-sec1">
-                <figure><img src="./img/sub1.jpg" alt="" class="sp-nn pc-bl" /><img src="./img/sp-sub1.jpg" alt="" class="sp-bl pc-nn" /></figure>
+                <figure><img src={process.env.PUBLIC_URL + "/img/sub1.jpg"} alt="" class="sp-nn pc-bl" /><img src={process.env.PUBLIC_URL + "/img/sp-sub1.jpg"} alt="" class="sp-bl pc-nn" /></figure>
                 <div class="sec-box1">
                     <div class="sub-title">
                         <h2>Profile</h2>
@@ -112,43 +112,43 @@ window.addEventListener("scroll", function () {
                     <div class="skill-box">
                         <ul>
                             <li>
-                                <figure><img src="./img/icon01.png" alt="HTML" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon01.png"} alt="HTML" /></figure>
                                 <p>HTML</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon02.png" alt="CSS" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon02.png"} alt="CSS" /></figure>
                                 <p>CSS</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon03.png" alt="Java Script" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon03.png"} alt="Java Script" /></figure>
                                 <p>Java Script</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon04.png" alt="JQuery" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon04.png"} alt="JQuery" /></figure>
                                 <p>JQuery</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon05.png" alt="WordPress" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon05.png"} alt="WordPress" /></figure>
                                 <p>WordPress</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon06.png" alt="Illustrator" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon06.png"} alt="Illustrator" /></figure>
                                 <p>Illustrator</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon07.png" alt="Photoshop" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon07.png"} alt="Photoshop" /></figure>
                                 <p>Photoshop</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon08.png" alt="Premiere" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon08.png"} alt="Premiere" /></figure>
                                 <p>Premiere</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon09.png" alt="After Effects" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon09.png"} alt="After Effects" /></figure>
                                 <p>After Effects</p>
                             </li>
                             <li>
-                                <figure><img src="./img/icon10.png" alt="Figma" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/icon10.png"} alt="Figma" /></figure>
                                 <p>Figma</p>
                             </li>
                         </ul>
@@ -164,7 +164,7 @@ window.addEventListener("scroll", function () {
                     <div class="works-area">
                         <div class="works-box">
                             <Link to='/works1'>
-                                <figure><img src="./img/works01.jpg" alt="株式会社H.Eウェルネス" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works01.jpg"} alt="株式会社H.Eウェルネス" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>株式会社H.Eウェルネス</p>
@@ -173,7 +173,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works2'>
-                                <figure><img src="./img/works02.jpg" alt="株式会社スタンダード" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works02.jpg"} alt="株式会社スタンダード" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>株式会社スタンダード</p>
@@ -182,7 +182,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works3'>
-                                <figure><img src="./img/works03.jpg" alt="青森の体験メニュー予約サイト｜Join Aomori" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works03.jpg"} alt="青森の体験メニュー予約サイト｜Join Aomori" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>Join Aomori</p>
@@ -191,7 +191,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works4'>
-                                <figure><img src="./img/works04.jpg" alt="JA-SS、ホクレンSSでJAカードをご利用いただくとご請求時にいつでも2円/&#8467;割引！｜JAカード" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works04.jpg"} alt="JA-SS、ホクレンSSでJAカードをご利用いただくとご請求時にいつでも2円/&#8467;割引！｜JAカード" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>JAカード</p>
@@ -200,7 +200,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works5'>
-                                <figure><img src="./img/works05.jpg" alt="JA直売所・JAファーマーズマーケットでJAカードをご利用いただくとご請求時にいつでも5％割引！！｜JAカード" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works05.jpg"} alt="JA直売所・JAファーマーズマーケットでJAカードをご利用いただくとご請求時にいつでも5％割引！！｜JAカード" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>JAカード</p>
@@ -209,7 +209,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works6'>
-                                <figure><img src="./img/works06.jpg" alt="Rtable" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works06.jpg"} alt="Rtable" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>Rtable</p>
@@ -218,7 +218,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works7'>
-                                <figure><img src="./img/works07.jpg" alt="秋田印刷製本株式会社" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works07.jpg"} alt="秋田印刷製本株式会社" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>秋田印刷製本株式会社</p>
@@ -227,7 +227,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works8'>
-                                <figure><img src="./img/works08.jpg" alt="株式会社 高橋製作所" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works08.jpg"} alt="株式会社 高橋製作所" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>株式会社 高橋製作所</p>
@@ -236,7 +236,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works9'>
-                                <figure><img src="./img/works09.jpg" alt="JR東日本：御朱印長キャンペーンLP" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works09.jpg"} alt="JR東日本：御朱印長キャンペーンLP" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Website</p>
                                     <p>JR東日本</p>
@@ -245,7 +245,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works10'>
-                                <figure><img src="./img/works10.jpg" alt="世界に誇れる景色～五能線の旅～" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works10.jpg"} alt="世界に誇れる景色～五能線の旅～" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Movie</p>
                                     <p>～五能線の旅～</p>
@@ -254,7 +254,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works11'>
-                                <figure><img src="./img/works11.jpg" alt="津軽弁早口チャレンジ～家で話そう～" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works11.jpg"} alt="津軽弁早口チャレンジ～家で話そう～" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Movie</p>
                                     <p>津軽弁早口チャレンジ</p>
@@ -263,7 +263,7 @@ window.addEventListener("scroll", function () {
                         </div>
                         <div class="works-box">
                             <Link to='/works12'>
-                                <figure><img src="./img/works12.jpg" alt="【秋田県教育旅行PR動画】小坂鉱山事務所（秋田県小坂町）" /></figure>
+                                <figure><img src={process.env.PUBLIC_URL + "/img/works12.jpg"} alt="【秋田県教育旅行PR動画】小坂鉱山事務所（秋田県小坂町）" /></figure>
                                 <div class="w-box-bottom">
                                     <p>Movie</p>
                                     <p>秋田県教育旅行PR動画</p>

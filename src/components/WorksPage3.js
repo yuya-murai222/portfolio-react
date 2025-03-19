@@ -10,7 +10,7 @@ const WorksPage3 = () => {
                         <p>制作実績</p>
                     </div>
                     <div class="w-works-box">
-                        <figure><img src="./img/p-works03.png" alt="" /></figure>
+                        <figure><img src={process.env.PUBLIC_URL + "/img/p-works03.png"} alt="" /></figure>
                         <div class="works-txt-box">
                             <div class="w-tit">
                                 <h3>Website</h3>
